@@ -1,0 +1,46 @@
+.chainsection-container {
+  gap: 120px;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.chainsection--info {
+  width: 467.18px;
+  height: 259.12px;
+
+  font-family: "Aldrich";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 68px;
+  text-align: start;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .chainsection-container {
+    /* width: 100vw; */
+    padding: 0px 32px;
+  }
+  .chainsection--info {
+    font-size: 56px;
+    line-height: 68px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .chainsection-container {
+    gap: 32px;
+  }
+  .chainsection--info {
+    width: 100%;
+    height: 100%;
+
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .chainsection--logo {
+    width: 100%;
+    height: 100%;
+  }
+}
